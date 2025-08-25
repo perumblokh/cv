@@ -1,78 +1,65 @@
-
 import type { PersonalInfo, Experience, Project, Education } from './types';
 
 export const personalInfo: PersonalInfo = {
-  name: "Alex Doe",
-  title: "Senior Frontend Engineer | React & TypeScript Specialist",
-  email: "alex.doe@email.com",
-  phone: "+1 (123) 456-7890",
-  location: "San Francisco, CA",
-  github: "https://github.com/alexdoe",
-  linkedin: "https://linkedin.com/in/alexdoe",
-  summary: "Innovative Senior Frontend Engineer with over 8 years of experience in creating dynamic, high-performance web applications. Expert in React, TypeScript, and modern JavaScript frameworks. Passionate about building intuitive user interfaces, optimizing application performance, and collaborating in agile environments to deliver exceptional products.",
-  avatar: "https://picsum.photos/seed/alexdoe/200/200"
+  name: "Wawan Irwansyah",
+  title: "Guru Informatika",
+  email: "wawan.irwansyah@email.com",
+  phone: "081252975943",
+  location: "Indonesia",
+  github: "https://github.com/wawanirwansyah",
+  linkedin: "https://linkedin.com/in/wawanirwansyah",
+  summary: "Seorang Guru Informatika yang berdedikasi dengan pengalaman dalam mengajar dan mengembangkan kurikulum teknologi. Bersemangat dalam membimbing siswa untuk memahami dunia digital, pemrograman, dan keamanan siber. Terampil dalam menggunakan berbagai platform dan perangkat lunak pendidikan untuk menciptakan lingkungan belajar yang interaktif dan efektif.",
+  avatar: "https://i.ibb.co/hJhDwBkq/mfi.png"
 };
 
 export const experiences: Experience[] = [
   {
-    role: "Senior Frontend Engineer",
-    company: "Tech Solutions Inc.",
-    period: "Jan 2020 - Present",
+    role: "Guru Informatika",
+    company: "SMA Negeri 1 Cemerlang",
+    period: "Jul 2018 - Sekarang",
     description: [
-      "Led the development of a new client-facing dashboard using React, TypeScript, and Redux, improving user engagement by 25%.",
-      "Architected and implemented a component library that standardized UI across multiple products, reducing development time by 30%.",
-      "Mentored junior engineers, conducting code reviews and promoting best practices in software development.",
-      "Optimized application performance by implementing code splitting, lazy loading, and memoization techniques, resulting in a 40% faster load time."
+      "Mengajar mata pelajaran Informatika untuk kelas X-XII dengan Kurikulum Merdeka.",
+      "Mengembangkan materi ajar interaktif dan modul praktikum berbasis proyek.",
+      "Membimbing siswa dalam persiapan Olimpiade Sains Nasional (OSN) bidang Komputer.",
+      "Bertindak sebagai administrator untuk laboratorium komputer dan jaringan sekolah."
     ]
   },
   {
-    role: "Frontend Developer",
-    company: "Innovate Co.",
-    period: "Jun 2017 - Dec 2019",
+    role: "Asisten Laboratorium",
+    company: "Universitas Pendidikan Nasional",
+    period: "Agu 2016 - Mei 2018",
     description: [
-      "Developed and maintained responsive web applications using React and JavaScript (ES6+).",
-      "Collaborated with UI/UX designers to translate wireframes and mockups into functional user interfaces.",
-      "Integrated RESTful APIs to fetch and display data, ensuring seamless user experience.",
-      "Wrote unit and integration tests using Jest and React Testing Library to maintain code quality."
-    ]
-  },
-   {
-    role: "Junior Web Developer",
-    company: "Digital Starters",
-    period: "Jul 2015 - May 2017",
-    description: [
-        "Assisted in building and maintaining company websites using HTML, CSS, and jQuery.",
-        "Gained foundational knowledge in web development and agile methodologies.",
-        "Worked closely with a senior developer to implement new features and fix bugs."
+      "Membantu dosen dalam mempersiapkan dan melaksanakan sesi praktikum.",
+      "Memberikan bimbingan kepada mahasiswa dalam pengerjaan tugas pemrograman.",
+      "Bertanggung jawab atas pemeliharaan perangkat keras dan lunak di laboratorium."
     ]
   }
 ];
 
 export const skills: string[] = [
-  "React", "TypeScript", "JavaScript (ES6+)", "Next.js", "Node.js", "HTML5", "CSS3", "Tailwind CSS",
-  "GraphQL", "REST APIs", "Redux", "Jest", "React Testing Library", "Webpack", "Vite", "Git", "CI/CD", "Figma", "Agile/Scrum"
+  "Struktur Data & Algoritma", "Java", "Python", "Dasar Jaringan", "HTML & CSS", "JavaScript", "SQL & Database", 
+  "Microsoft Office Suite", "Google Workspace for Education", "Manajemen Kelas", "Pengembangan Kurikulum", "Scratch", "Canva", "Figma"
 ];
 
 export const projects: Project[] = [
   {
-    title: "Project Nova",
-    description: "A real-time collaborative project management tool designed to streamline team workflows and improve productivity.",
-    tags: ["React", "TypeScript", "Firebase", "Tailwind CSS"],
-    repoUrl: "https://github.com/alexdoe/project-nova",
-    liveUrl: "https://project-nova.example.com"
+    title: "Sistem Informasi Perpustakaan Sekolah",
+    description: "Membangun aplikasi desktop sederhana untuk manajemen peminjaman dan pengembalian buku di perpustakaan sekolah.",
+    tags: ["Java", "Swing GUI", "MySQL"],
+    repoUrl: "https://github.com/wawanirwansyah/sistem-perpus",
   },
   {
-    title: "E-commerce Platform",
-    description: "A full-stack e-commerce solution with features like product catalog, shopping cart, and secure checkout.",
-    tags: ["Next.js", "GraphQL", "Stripe API", "Vercel"],
-    repoUrl: "https://github.com/alexdoe/ecommerce-platform",
+    title: "Website Profil Sekolah",
+    description: "Merancang dan mengembangkan website statis sebagai profil sekolah menggunakan HTML, CSS, dan JavaScript untuk tugas siswa.",
+    tags: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+    repoUrl: "https://github.com/wawanirwansyah/web-sekolah",
   }
 ];
 
 export const education: Education[] = [
     {
-        degree: "Bachelor of Science in Computer Science",
-        institution: "University of California, Berkeley",
-        period: "2011 - 2015"
+        degree: "S.Pd. Pendidikan Teknik Informatika",
+        institution: "Universitas Pendidikan Nasional",
+        period: "2014 - 2018"
     }
 ];
