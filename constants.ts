@@ -1,4 +1,4 @@
-import type { PersonalInfo, Experience, Project, Education } from './types';
+import type { PersonalInfo, Experience, Project, Education } from './types.ts';
 
 export const personalInfo: PersonalInfo = {
   name: "Wawan Irwansyah",

@@ -1,14 +1,14 @@
 
 import React from 'react';
-import { Header } from './components/Header';
-import { Section } from './components/Section';
-import { ExperienceItem } from './components/ExperienceItem';
-import { ProjectCard } from './components/ProjectCard';
-import { SkillBadge } from './components/SkillBadge';
-import { EducationItem } from './components/EducationItem';
-import { Footer } from './components/Footer';
-import { personalInfo, experiences, projects, skills, education } from './constants';
-import { BriefcaseIcon, CodeBracketIcon, AcademicCapIcon, SparklesIcon } from './components/Icons';
+import { Header } from './components/Header.tsx';
+import { Section } from './components/Section.tsx';
+import { ExperienceItem } from './components/ExperienceItem.tsx';
+import { ProjectCard } from './components/ProjectCard.tsx';
+import { SkillBadge } from './components/SkillBadge.tsx';
+import { EducationItem } from './components/EducationItem.tsx';
+import { Footer } from './components/Footer.tsx';
+import { personalInfo, experiences, projects, skills, education } from './constants.ts';
+import { BriefcaseIcon, CodeBracketIcon, AcademicCapIcon, SparklesIcon } from './components/Icons.tsx';
 
 const App: React.FC = () => {
   return (

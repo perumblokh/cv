@@ -1,6 +1,6 @@
 
 import React from 'react';
-import type { Education } from '../types';
+import type { Education } from '../types.ts';
 
 interface EducationItemProps {
   education: Education;

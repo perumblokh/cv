@@ -1,7 +1,7 @@
 
 import React from 'react';
-import type { Project } from '../types';
-import { GithubIcon, ExternalLinkIcon } from './Icons';
+import type { Project } from '../types.ts';
+import { GithubIcon, ExternalLinkIcon } from './Icons.tsx';
 
 interface ProjectCardProps {
   project: Project;

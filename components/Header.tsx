@@ -1,7 +1,7 @@
 
 import React from 'react';
-import type { PersonalInfo } from '../types';
-import { GithubIcon, LinkedinIcon, MailIcon, MapPinIcon, PhoneIcon } from './Icons';
+import type { PersonalInfo } from '../types.ts';
+import { GithubIcon, LinkedinIcon, MailIcon, MapPinIcon, PhoneIcon } from './Icons.tsx';
 
 interface HeaderProps {
   personalInfo: PersonalInfo;
